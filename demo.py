@@ -1,0 +1,20 @@
+countries = ["India","USA","Japan","Russia"]
+temp = list(countries)
+temp.append("BONG")
+print(countries)
+print(temp)
+temp.pop(1)
+print(temp)
+countries = tuple(temp)
+print(countries)
+countries3 = ("Spain","Italy","Germany")
+countries4 = ("portugal","Sweden","Norway")
+europe = countries3 + countries4
+print(europe)
+tuple1 = (0, 1, 2, 3, 2, 31, 1, 3, 2, 3)
+print(len(tuple1))
+res = tuple1.index(3,4,8)
+k = len(tuple1)
+print(k)
+print('First occurrence of 3 from index 4 to 8 is', res)
+    
